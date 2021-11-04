@@ -1,4 +1,6 @@
-// Task 2 - Deque realization
+package lesson3;
+
+// Task 2 - lesson3.Deque realization
 public class Main {
     public static void main(String[] args) {
         Deque letter = new Deque(5);
@@ -9,7 +11,7 @@ public class Main {
         letter.addFirstNLast('D');
         letter.addFirstNLast('E');
 
-        System.out.println("Deque after creation: ");
+        System.out.println("lesson3.Deque after creation: ");
         letter.print();
         System.out.println();
 
@@ -21,7 +23,7 @@ public class Main {
         System.out.println("Remove Last= " + letter.removeLast());
         System.out.println();
 
-        System.out.println("Deque after deleting the first and the last elements: ");
+        System.out.println("lesson3.Deque after deleting the first and the last elements: ");
         letter.print();
         System.out.println();
 

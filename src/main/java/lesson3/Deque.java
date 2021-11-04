@@ -1,4 +1,6 @@
-// Task 2 - Deque realization
+package lesson3;
+
+// Task 2 - lesson3.Deque realization
 public class Deque {
     private int maxSize;
     private char[] deque;

@@ -1,4 +1,4 @@
-// Task 1 - Print a stack in reverse
+package lesson3;// Task 1 - Print a stack in reverse
 import java.util.Stack;
 
 public class StackRev {
